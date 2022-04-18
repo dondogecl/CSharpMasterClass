@@ -31,7 +31,7 @@ namespace HashTableChallenge
                 {
                     Console.WriteLine($"Sorry, a student with the same ID {item.Id} already Exists");
                     
-                    // adding a condition because of the Joker.
+                    // adding a condition because of the Joker..
                     if (item.Name == "Louise")
                     {
                         Console.WriteLine($"Also sorry, because Superman already killed student {item.Name}");
