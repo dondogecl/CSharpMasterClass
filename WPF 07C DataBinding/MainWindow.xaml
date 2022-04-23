@@ -1,0 +1,30 @@
+﻿<Window x:Class="WPF_07C_DataBinding.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_07C_DataBinding"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="800" Width="800">
+    <StackPanel Margin="20">
+        <TextBlock>One way binding from slider to box</TextBlock>
+        <TextBox Width="100" Margin="50"  
+                 Text="{Binding ElementName=MySlider, Path=Value, Mode=OneWay}" ></TextBox>
+        <Slider Name="MySlider" Minimum="0" Maximum="100"></Slider>
+
+        <TextBlock>One way to Source binding from box to Slider</TextBlock>
+        <TextBox Width="100" Margin="50"  
+                 Text="{Binding ElementName=MySlider2, Path=Value, Mode=OneWayToSource}" ></TextBox>
+        <Slider Name="MySlider2" Minimum="0" Maximum="100" IsSnapToTickEnabled="True"></Slider>
+
+        <TextBlock>One Time</TextBlock>
+        <TextBox Name="MyTextBox3" Width="100" Margin="50"  
+                 Text="{Binding ElementName=MySlider3, Path=Value, Mode=OneTime}" ></TextBox>
+        <Slider Name="MySlider3" Minimum="0" Maximum="100"></Slider>
+
+        <TextBlock>One way to Source binding from box to Slider</TextBlock>
+        <TextBox Width="100" Margin="50"  
+                 Text="{Binding ElementName=MySlider4, Path=Value, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" ></TextBox>
+        <Slider Name="MySlider4" Minimum="0" Maximum="100" IsSnapToTickEnabled="True"></Slider>
+    </StackPanel>
+</Window>
