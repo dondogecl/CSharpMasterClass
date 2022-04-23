@@ -3,15 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayListCollections", "ArrayListCollections\ArrayListCollections.csproj", "{56212E7A-6F1B-42FF-A702-718BFDDE06B3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArrayListCollections", "ArrayListCollections\ArrayListCollections.csproj", "{56212E7A-6F1B-42FF-A702-718BFDDE06B3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectionsList", "CollectionsList\CollectionsList.csproj", "{B1D0C8C4-1313-43BD-B11B-72EB501307B5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CollectionsList", "CollectionsList\CollectionsList.csproj", "{B1D0C8C4-1313-43BD-B11B-72EB501307B5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashTables", "HashTables\HashTables.csproj", "{7DC88121-30F4-4A01-B937-B99439FC5CE6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HashTables", "HashTables\HashTables.csproj", "{7DC88121-30F4-4A01-B937-B99439FC5CE6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashTableChallenge", "HashTableChallenge\HashTableChallenge.csproj", "{6E5793B7-FA25-4115-9431-BA217B8BCC83}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HashTableChallenge", "HashTableChallenge\HashTableChallenge.csproj", "{6E5793B7-FA25-4115-9431-BA217B8BCC83}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DictionaryDemo", "DictionaryDemo\DictionaryDemo.csproj", "{9021EA0B-C064-4F7B-8AE4-7235C6BEDA50}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DictionaryDemo", "DictionaryDemo\DictionaryDemo.csproj", "{9021EA0B-C064-4F7B-8AE4-7235C6BEDA50}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArraysDemo", "ArraysDemo\ArraysDemo.csproj", "{E76690D2-3432-47BC-997C-8CAF5FECDC18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StacksDemo", "StacksDemo\StacksDemo.csproj", "{1D9A2CE5-0FA6-4F7E-A29C-89FBFC7E30E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueueDemo", "QueueDemo\QueueDemo.csproj", "{4DFC8591-9731-4D2E-8FF3-0F34C82E0279}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +45,18 @@ Global
 		{9021EA0B-C064-4F7B-8AE4-7235C6BEDA50}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9021EA0B-C064-4F7B-8AE4-7235C6BEDA50}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9021EA0B-C064-4F7B-8AE4-7235C6BEDA50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E76690D2-3432-47BC-997C-8CAF5FECDC18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E76690D2-3432-47BC-997C-8CAF5FECDC18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E76690D2-3432-47BC-997C-8CAF5FECDC18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E76690D2-3432-47BC-997C-8CAF5FECDC18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D9A2CE5-0FA6-4F7E-A29C-89FBFC7E30E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D9A2CE5-0FA6-4F7E-A29C-89FBFC7E30E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D9A2CE5-0FA6-4F7E-A29C-89FBFC7E30E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D9A2CE5-0FA6-4F7E-A29C-89FBFC7E30E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DFC8591-9731-4D2E-8FF3-0F34C82E0279}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DFC8591-9731-4D2E-8FF3-0F34C82E0279}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DFC8591-9731-4D2E-8FF3-0F34C82E0279}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DFC8591-9731-4D2E-8FF3-0F34C82E0279}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
